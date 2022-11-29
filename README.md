@@ -1,8 +1,21 @@
 # Laravel8 Render.comデプロイ （Docker + nginx）
 
-Laravel5.8の説明は公式にあったので、8に合わせたサンプルアプリ
+Laravel5.8の説明は公式のドキュメントにあったので、8に合わせたサンプルアプリ
 
 nginx-php-fpm のイメージを今のPHPバージョンに近いものに合わせました。(PHP 8.1.10)
+
+`./Dockerfile`
+
+```diff
+- FROM richarvey/nginx-php-fpm:2.1.2
++ FROM richarvey/nginx-php-fpm:latest
+
+  COPY . .
+  
+  # 省略
+```
+
+その他はドキュメント通りです。
 
 - 参考
 https://render.com/docs/deploy-php-laravel-docker
