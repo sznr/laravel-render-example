@@ -21,8 +21,9 @@ nginx-php-fpm のイメージをlocalのPHPバージョンに近いものに合�
 その他はドキュメント通りです。
 
 - 参考
-https://render.com/docs/deploy-php-laravel-docker
-https://github.com/richarvey/nginx-php-fpm/blob/main/docs/versioning.md#php-8x
+  - https://render.com/docs/deploy-php-laravel-docker
+
+  - https://github.com/richarvey/nginx-php-fpm/blob/main/docs/versioning.md#php-8x
 
 - このリポジトリのアプリURL
 https://laravel-render-example-k70l.onrender.com/
