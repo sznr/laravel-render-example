@@ -4,8 +4,8 @@ Laravel5.8の説明は公式のドキュメントにあったので、8に合わ
 
 nginx-php-fpm のイメージをlocalのPHPバージョンに近いものに合わせました。
 
-- local PHP 8.1.10
-- Docker Image 8.1.12
+- localのsail環境 PHP Version 8.1.10
+- nginx-php-fpm PHP Version 8.1.12
 
 `./Dockerfile`
 
