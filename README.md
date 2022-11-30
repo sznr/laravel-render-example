@@ -2,7 +2,10 @@
 
 Laravel5.8の説明は公式のドキュメントにあったので、8に合わせたサンプルアプリ
 
-nginx-php-fpm のイメージを今のPHPバージョンに近いものに合わせました。(PHP 8.1.10)
+nginx-php-fpm のイメージをlocalのPHPバージョンに近いものに合わせました。
+
+- local PHP 8.1.10
+- Docker Image 8.1.12
 
 `./Dockerfile`
 
