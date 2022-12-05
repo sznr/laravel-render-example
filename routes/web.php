@@ -16,3 +16,8 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+// 大文字と小文字のエラー検証
+Route::get('/test1', [App\Http\Controllers\testController::class, 'test1']);
+
+Route::get('/test2', [App\Http\Controllers\TestController::class, 'test2']);
